@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&family=M+PLUS+Rounded+1c:wght@100;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ :root{
+    --clr-bg: #1A2238;
+    --tex-bg :#fff;
+}
+/* ===== PAGE BODY=======  */
+body{
+ background-color: var( --clr-bg) !important;
+}
+
+
+/* ================  NAVBAR =================  */
+.navbar_css{ 
+    background-color: var(--clr-code-bg);
+
+
+
+}
+.nav-item{
+  font-size: 20px;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-weight: 500px;
+}
+.nav-link{
+    color: var(--tex-bg) !important;
+}
