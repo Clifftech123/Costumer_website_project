@@ -71,10 +71,9 @@ body{
 
 
 
-
 /* ================  NAVBAR =================  */
 .navbar_css{ 
-    background-color: var(--clr-navbar-bg);
+        background-color: var(--clr-navbar-bg) !important;
     color: var(--bs-white);
     border-top: 2px solid var(--clr-bg);
 
@@ -86,7 +85,7 @@ body{
   
 }
 .nav-link{
-    color: var( --clr-code-txt) !important;
+    color: var(  --clr-code-txt) !important;
 }
 .home-link{
     color: var(  --clr-exp-intermediate) !important ;
@@ -99,25 +98,39 @@ body{
 .serch_bg  :hover{
  border: 1px solid var(--clr-exp-intermediate) !important; 
 }
+/* ---------- The end of the navbar -----  */
+
+
+
 
 
 
 
 
 /* ================  FIRST_CONTENT=================  */
+
+
+
+    /*first content   */
+    .first_contact{
+        background-color: var( --clr-bg) !important;
+        margin-top: 50px;
+    }
+    
+    /*first  content background  */
     .bg{
-        background-color: var(   --clr-code-txt) !important;
+        background-color:   var(  --clr-kbd-bg) !important;;
         color: var(  --clr-code-txt) ;
+        border-top: 5px solid var(--clr-code-block-txt) !important;
         
     }
    
+    /* card title  */
     .title{
         color: var( --clr-code-txt) ;
     }
-    .first_contact{
-        background-color: var(--clr-bg) !important;
-        margin-top: 50px;
-    }
+
+
     .service-container {
       -webkit-transition: all 0.5s ease;
       transition: all 0.5s ease;
@@ -242,7 +255,7 @@ body{
     
     .service-container a:hover,
     .service-container a .title:hover {
-      color: #f89d36 !important;
+      color: #000 !important;
     }
     
     @-webkit-keyframes mover {

@@ -74,9 +74,9 @@ body{
 
 /* ================  NAVBAR =================  */
 .navbar_css{ 
-    background-color: var(--clr-navbar-bg);
-    color: var(--bs-white);
-    border-top: 2px solid var(--clr-bg);
+    background-color: var(--clr-navbar-bg) !important;
+color: var(--bs-white);
+border-top: 2px solid var(--clr-bg);
 
 }
 .nav-item{
@@ -85,7 +85,8 @@ body{
   font-weight: 500px;
 }
 .nav-link{
-    color: var( --clr-code-txt) !important;
+    color: var(  --clr-code-txt) !important;
+
 }
 .contact_link:visited{
     color: var(  --clr-exp-intermediate) !important ;
