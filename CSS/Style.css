@@ -106,7 +106,7 @@ body{
 
 /* ================  FIRST_CONTENT=================  */
     .bg{
-        background-color: var(--clr-kbd-bg) !important;
+        background-color: var(   --clr-code-txt) !important;
         color: var(  --clr-code-txt) ;
         
     }
