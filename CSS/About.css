@@ -83,12 +83,11 @@ body{
   font-size: 20px;
   font-family: 'Fugaz One', cursive;
   font-weight: 500px;
-  
 }
 .nav-link{
     color: var( --clr-code-txt) !important;
 }
-.home-link{
+.about_link:visited{
     color: var(  --clr-exp-intermediate) !important ;
 }
 .serch_bg{
@@ -99,7 +98,6 @@ body{
 .serch_bg  :hover{
  border: 1px solid var(--clr-exp-intermediate) !important; 
 }
-
 
 
 
