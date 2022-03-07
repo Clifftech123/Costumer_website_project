@@ -121,7 +121,7 @@ body{
     .bg{
         background-color:   var(  --clr-kbd-bg) !important;;
         color: var(  --clr-code-txt) ;
-        border-top: 5px solid var(--clr-code-block-txt) !important;
+        border-top: 5px solid var(  --clr-exp-intermediate) !important;
         
     }
    
