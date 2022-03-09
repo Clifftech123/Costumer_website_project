@@ -73,7 +73,7 @@ body{
 
 /* ================  NAVBAR =================  */
 .navbar_css{ 
-        background-color: var(--clr-navbar-bg) !important;
+        background-color: var( --clr-code-border) !important;
     color: var(--bs-white);
     border-top: 2px solid var(--clr-bg);
 
@@ -85,7 +85,7 @@ body{
   
 }
 .nav-link{
-    color: var(  --clr-code-txt) !important;
+    color: var( --clr-code-txt) !important;
 }
 .home-link{
     color: var(  --clr-exp-intermediate) !important ;
@@ -120,8 +120,9 @@ body{
     /*first  content background  */
     .bg{
         background-color:   var(  --clr-kbd-bg) !important;;
-        color: var(  --clr-code-txt) ;
-        border-top: 5px solid var(  --clr-exp-intermediate) !important;
+        color: var( --clr-code-txt) !important;
+      
+        
         
     }
    
