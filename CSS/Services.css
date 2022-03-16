@@ -74,9 +74,9 @@ body{
 
 /* ================  NAVBAR =================  */
 .navbar_css{ 
-    background-color: var( --clr-code-border) !important;
+    background-color: var( --clr-code-selection) !important;
 color: var(--bs-white);
-border-top: 2px solid var(--clr-bg);
+border-bottom: 1px solid rgb(194, 194, 194);
 
 }
 .nav-item{

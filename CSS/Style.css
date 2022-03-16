@@ -13,6 +13,9 @@
     --clr-bg: #09091b;
     --clr-primary-050: #94b9f4;
     --clr-primary-100: #5394fd;
+    --clr-bg: #09091b;
+    --clr-primary-050: #94b9f4;
+    --clr-primary-100: #5394fd;
     --clr-primary-200: #0444f6;
     --clr-navbar-bg: #0b0a10;
     --clr-scrollbar-bg: #060613;
@@ -36,7 +39,7 @@
     --clr-el-03db: #242433;
     --shd-el-03dp: 0 3px 6px #0000001a,0 10px 20px #00000026;
 
-
+   
 
 }
 
@@ -73,9 +76,9 @@ body{
 
 /* ================  NAVBAR =================  */
 .navbar_css{ 
-        background-color: var( --clr-code-border) !important;
+        background-color: var( --clr-code-selection) !important;
     color: var(--bs-white);
-    border-top: 2px solid var(--clr-bg);
+    border-bottom: 1px solid #fff;
 
 }
 .nav-item{
@@ -101,7 +104,17 @@ body{
 /* ---------- The end of the navbar -----  */
 
 
+.bnt_color{
+  background:  var( --clr-code-txt) !important;
 
+}
+
+.serch_icon a {
+  width: 20px !important;
+  height: 50px !important;
+ position: absolute;
+ right: auto;
+}
 
 
 
@@ -119,7 +132,7 @@ body{
     
     /*first  content background  */
     .bg{
-        background-color:   var(  --clr-kbd-bg) !important;;
+        background-color:   var( --clr-scrollbar-bg) !important;;
         color: var( --clr-code-txt) !important;
       
         
@@ -342,5 +355,13 @@ body{
         font-size: inherit;
         fill: var(--uim-color, currentColor);
     }
+
+    .Jumbotron_bg{
+      background-color: var(--clr-code-selection) !important;
+     padding: 100px;
+     margin-top: 20px;
+
+    }
+  
     
     

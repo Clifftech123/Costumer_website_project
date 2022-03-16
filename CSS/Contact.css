@@ -74,7 +74,7 @@ body{
 
 /* ================  NAVBAR =================  */
 .navbar_css{ 
-    background-color: var( --clr-code-border) !important;
+    background-color: var( --clr-code-selection) !important;
 color: var(--bs-white);
 border-top: 2px solid var(--clr-bg);
 
@@ -104,9 +104,6 @@ border-top: 2px solid var(--clr-bg);
 
 
 /* ================  FIRST_CONTENT=================  */
-
-
-
 .login-block {
     margin: 30px auto;
     min-height: 93.6vh-;
@@ -156,7 +153,6 @@ border-top: 2px solid var(--clr-bg);
     display: inline-block;
     height: 100px;
     width: 100%;
-    border: none;
     border-radius: 0;
     font-size: 16px;
     font-weight: 400;
@@ -164,7 +160,9 @@ border-top: 2px solid var(--clr-bg);
     background-color: transparent;
     -webkit-box-shadow: none;
     box-shadow: none;
-    border-bottom: 1px solid var(--clr-code-bg)
+    text-align: center;
+   border: none;
+   border-bottom:  1px solid var(--clr-bg);
 }
 
 .btn-md {
@@ -199,4 +197,28 @@ border-top: 2px solid var(--clr-bg);
     font-size: 15px;
     line-height: 23px
 }
+
+
+.name_email{
+    height: auto;
+}
+
+.message{
+    height: 150px !important;
+
+
+
+}
+
+
+/* ================Social Icons =================  */
+.Social_icons{
+    font-size: 25px;
+    margin: 10px;
+}
+
+
+
+
+
 
