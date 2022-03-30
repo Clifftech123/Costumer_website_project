@@ -100,7 +100,9 @@ border-top: 2px solid var(--clr-bg);
  border: 1px solid var(--clr-exp-intermediate) !important; 
 }
 
-
+.form_beckground{
+  background-color: #0444f6;
+}
 
 
 /* ================  FIRST_CONTENT=================  */
@@ -216,6 +218,8 @@ border-top: 2px solid var(--clr-bg);
     font-size: 25px;
     margin: 10px;
 }
+
+
 
 
 

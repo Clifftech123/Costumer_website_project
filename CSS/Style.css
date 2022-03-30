@@ -7,8 +7,7 @@
     box-sizing: border-box;
 }
 
-/* =====THR ROOT THE CONTAIN ALL THE COLORS IN THE PAGE =======  */
- 
+/* ===== Root colors in the page  =======  */
 :root {
     --clr-bg: #09091b;
     --clr-primary-050: #94b9f4;
@@ -42,8 +41,6 @@
    
 
 }
-
-
 
 :root {
     --clr-code-bg: #20273c;
@@ -109,28 +106,27 @@ body{
 
 }
 
-.serch_icon a {
-  width: 20px !important;
-  height: 50px !important;
- position: absolute;
- right: auto;
+.form-control-borderless {
+  border: none;
+}
+
+.form-control-borderless:hover, .form-control-borderless:active, .form-control-borderless:focus {
+  border: none;
+  outline: none;
+  box-shadow: none;
 }
 
 
 
 
-
 /* ================  FIRST_CONTENT=================  */
-
-
-
     /*first content   */
     .first_contact{
         background-color: var( --clr-bg) !important;
         margin-top: 50px;
     }
     
-    /*first  content background  */
+    /*first  content the card background */
     .bg{
         background-color:   var( --clr-scrollbar-bg) !important;;
         color: var( --clr-code-txt) !important;

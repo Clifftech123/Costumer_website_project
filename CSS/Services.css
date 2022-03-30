@@ -8,7 +8,6 @@
 }
 
 /* =====THR ROOT THE CONTAIN ALL THE COLORS IN THE PAGE =======  */
- 
 :root {
     --clr-bg: #09091b;
     --clr-primary-050: #94b9f4;
@@ -35,13 +34,7 @@
     --clr-el-03dp: #ffffff1c;
     --clr-el-03db: #242433;
     --shd-el-03dp: 0 3px 6px #0000001a,0 10px 20px #00000026;
-
-
-
 }
-
-
-
 :root {
     --clr-code-bg: #20273c;
     --clr-code-border: #374367;
@@ -67,11 +60,21 @@
 body{
     background-color:  var(--clr-bg) !important;
 }
-   
+  
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
 
-
-
-
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
 /* ================  NAVBAR =================  */
 .navbar_css{ 
     background-color: var( --clr-code-selection) !important;
@@ -93,15 +96,32 @@ border-bottom: 1px solid rgb(194, 194, 194);
     color:  var(  --clr-exp-intermediate) !important  ;
 }
 .serch_bg{
-    background-color: var(--clr-search-bg) !important;
+    background-color: var(--clr-bg) !important;
     color: var(--clr-exp-intermediate) !important;
 }
 
 .serch_bg  :hover{
- border: 1px solid var(--clr-exp-intermediate) !important; 
+ border: 1px solid var( --clr-code-selection) !important; 
+}
+
+/* ================  FIRST_CONTENT=================  */
+
+.heading_text{
+    color: var(--clr-exp-intermediate);
+}
+
+.content_bg{
+    background-color : var(----clr-code-selection) !important;
+}
+.footer_bg{
+    background-color : var(  --clr-snippet-preview-bg) !important; 
 }
 
 
+/* ================  card background =================  */
+.card_background_second{
+    background-color:   var( --clr-scrollbar-bg) !important;;
+    color: var( --clr-code-txt) !important;
+    height:  600px !important;
+}
 
-
-/* ================  FIRST_CONTENT=================  */
