@@ -9,7 +9,7 @@
 
 /* ===== Root colors in the page  =======  */
 :root {
-    --clr-bg: #09091b;
+    --clr-bg: #1A233A;
     --clr-primary-050: #94b9f4;
     --clr-primary-100: #5394fd;
     --clr-bg: #09091b;
@@ -17,7 +17,7 @@
     --clr-primary-100: #5394fd;
     --clr-primary-200: #0444f6;
     --clr-navbar-bg: #0b0a10;
-    --clr-scrollbar-bg: #060613;
+ 
     --clr-scrollbar-knob: #242433;
     --clr-scrollbar-knob-active: #2b2b3b;
     --clr-search-bg: #000000fa;
@@ -28,22 +28,15 @@
     --clr-snippet-preview-bg: #0d0d16;
     --clr-quote-border: #8696c1;
     --clr-table-border: #5c5e6a;
-    --clr-el-01dp: #ffffff0d;
-    --clr-el-01db: #141424;
-    --shd-el-01dp: 0 1px 2px #0000003d,0 1px 3px #0000001f;
-    --clr-el-02dp: #ffffff14;
-    --clr-el-02db: #1b1b2c;
-    --shd-el-02dp: 0 2px 4px #00000026,0 3px 6px #0000001f;
-    --clr-el-03dp: #ffffff1c;
-    --clr-el-03db: #242433;
-    --shd-el-03dp: 0 3px 6px #0000001a,0 10px 20px #00000026;
+
 
    
 
 }
 
 :root {
-    --clr-code-bg: #20273c;
+    --clr-code-bg: #1A233A;
+    --clr-scrollbar-bg: #1a233a;
     --clr-code-border: #374367;
     --clr-code-txt: #d7def9;
     --clr-kbd-bg: #262736;
@@ -58,14 +51,13 @@
     --clr-tkn-b: #bdbdbd;
     --clr-tkn-c: #65b5f6;
     --clr-tkn-d: #ff9100;
-    --clr-tkn-e: #c4e0a3;
-    --clr-tkn-f: #cd92d8;
-    --clr-tkn-g: #25c5da;
-    --clr-tkn-h: #e57171
+
+    --card-background: #272e48;
 }
 /* ===== PAGE BODY=======  */
 body{
     background-color:  var(--clr-bg) !important;
+    color: #bcd0f7;
 }
    
 
@@ -91,7 +83,7 @@ body{
     color: var(  --clr-exp-intermediate) !important ;
 }
 .serch_bg{
-    background-color: var(--clr-search-bg) !important;
+    background-color: var(--clr-scrollbar-bg) !important;
     color: var(--clr-exp-intermediate) !important;
 }
 
@@ -126,6 +118,8 @@ body{
         margin-top: 50px;
     }
     
+
+   
     /*first  content the card background */
     .bg{
         background-color:   var( --clr-scrollbar-bg) !important;;
@@ -190,6 +184,7 @@ body{
     .service-container .content .number {
       font-size: 40px;
     }
+    
     
     .service-container .content .title {
       -webkit-transition: all 0.5s ease;

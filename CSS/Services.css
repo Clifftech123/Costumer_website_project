@@ -113,15 +113,39 @@ border-bottom: 1px solid rgb(194, 194, 194);
 .content_bg{
     background-color : var(----clr-code-selection) !important;
 }
-.footer_bg{
-    background-color : var(  --clr-snippet-preview-bg) !important; 
-}
 
 
 /* ================  card background =================  */
 .card_background_second{
     background-color:   var( --clr-scrollbar-bg) !important;;
     color: var( --clr-code-txt) !important;
-    height:  600px !important;
+    height:  auto  !important;
 }
+
+/* col border*/
+.col_border{
+  border-bottom: 5px solid   var(--clr-tkn-d) !important;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+
+/* ================  Content Pricing=================  */
+.Content_princing{
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.pricing_bg{
+    background-color: var(  --clr-scrollbar-bg) !important;
+    height: 200px;   
+}
+
+
+/* ================  FOOTER =================  */
+.footer_bg{
+    background-color : var(  --clr-snippet-preview-bg) !important; 
+    border-top: 5px solid  var(  --clr-code-bg) !important;
+}
+
 
